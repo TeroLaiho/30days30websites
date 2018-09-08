@@ -1,3 +1,27 @@
 /* GLOBAL STYLES */
+body {
+    background-color: cyan;
+}
 
 /* AREA STYLES */
+.headerArea {
+    background-color: lightgreen;
+}
+.challengesArea {
+    background-color: grey;
+}
+.challengeContainer {
+    background-color: lightblue;
+}
+.challengeHeader {
+
+}
+.challengeDescription {
+
+}
+.challengeLink {
+
+}
+.footerArea {
+    background-color: lavender;
+}
