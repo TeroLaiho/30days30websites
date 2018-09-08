@@ -12,6 +12,7 @@ body {
 }
 .challengeContainer {
     background-color: lightblue;
+    width: 30%;
 }
 .challengeHeader {
 
