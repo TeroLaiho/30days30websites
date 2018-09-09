@@ -1,23 +1,52 @@
 /* GLOBAL STYLES */
+* {
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+a {
+    color: #778899;
+    color: #B0E0E6;
+}
+
 body {
-    background-color: cyan;
+    background-color: #f4f4f4;
+    /*font-family: 'Open Sans', helvetica, arial, sans;*/
+    font-weight: bold;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    line-height: 1.2;
+}
+
+h1, h2, h3 {
+    font-family: "Century Gothic", CenturyGothic,'Open Sans', helvetica, arial, sans;
 }
 
 /* AREA STYLES */
 .headerArea {
-    background-color: lightgreen;
+    background-color: #f4f4f4;
+    color: #c0b283;
+    margin-bottom: 40px;
+    margin-left: 20px;
 }
 .challengesHeaderArea {
-    background-color: red;
+    background-color: #f4f4f4;
+    color: #c0b283;
+    margin-bottom: 0;
+    margin-left: 20px;
 }
 .challengesArea {
-    background-color: grey;
+    background-color: color: #dcd0c0;
     display: grid;
     grid-template-columns: 33vw 33vw 33vw;
+    margin-top: 0;
+    padding-top: 0;
 }
 .challengeContainer {
-    background-color: lightblue;
+    background-color: #fffff0;
+    color: #c0b283;
     margin: 10px;
+    padding: 10px;
+    padding-top: 0;
 }
 .challengeHeader {
 
@@ -29,5 +58,8 @@ body {
 
 }
 .footerArea {
-    background-color: lavender;
+    background-color: #f4f4f4;
+    color: #c0b283;
+    margin-left: 20px;
+    margin-bottom: 40px;
 }
