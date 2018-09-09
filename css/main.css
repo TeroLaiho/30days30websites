@@ -7,12 +7,17 @@ body {
 .headerArea {
     background-color: lightgreen;
 }
+.challengesHeaderArea {
+    background-color: red;
+}
 .challengesArea {
     background-color: grey;
+    display: grid;
+    grid-template-columns: 33vw 33vw 33vw;
 }
 .challengeContainer {
     background-color: lightblue;
-    width: 30%;
+    margin: 10px;
 }
 .challengeHeader {
 
