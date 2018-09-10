@@ -4,15 +4,18 @@
     --main-bg-color:#F4F4F4;
     --main-bg-color:#4169E1; /*royal blue*/
     --main-bg-color:#0B3C5D; /*prussian blue*/
+    --main-bg-color:#1a538f; /*miyuki*/
     --area-color:#FFFFF0;
     --area-color:#4717F6; /*jewell*/
     --area-color:#2251dd;
     --area-color:#328CC1; /*sky blue*/
     --area-color:#1D2731; /*ivory black*/
+    --area-color:#cce6ff; /*miyuki*/
     --link-color:#778899;
     --link-color:#DAA520; /*GoldenRod*/
     --accent-color:#417C81;
     --text-color:#C0B283; /*gold*/
+    --secondary-text-color:#373737; /*charcoal*/
 
 }
 
@@ -35,7 +38,7 @@ body {
     /*font-family: 'Open Sans', helvetica, arial, sans;*/
     font-weight: bold;
     font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
-    line-height: 1.2;
+    line-height: 1.3;
 }
 
 h1, h2, h3 {
@@ -70,10 +73,11 @@ h1, h2, h3 {
     padding-top: 0;
 }
 .challengeHeader {
-
+    color: var(--secondary-text-color);
 }
 .challengeDescription {
-
+    color: var(--secondary-text-color);
+    padding-bottom: 5px;
 }
 .challengeLink {
 
