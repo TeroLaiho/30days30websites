@@ -1,3 +1,17 @@
+/*GLOBAL VARIABLES*/
+
+:root{
+    --main-bg-color:#F4F4F4;
+    --main-bg-color:#4169E1; /*royal blue*/
+    --area-color:#FFFFF0;
+    --area-color:#4717F6; /*jewell*/
+    --area-color:#2251dd;
+    --link-color:#778899;
+    --link-color:#DAA520; /*GoldenRod*/
+    --accent-color:#417C81;
+    --text-color:#C0B283; /*gold*/
+}
+
 /* GLOBAL STYLES */
 * {
     box-sizing: border-box;
@@ -5,12 +19,15 @@
 }
 
 a {
-    color: #778899;
-    color: #B0E0E6;
+    color: var(--link-color);
+}
+
+a:hover {
+    color: var(--accent-color);
 }
 
 body {
-    background-color: #f4f4f4;
+    background-color: var(--main-bg-color);
     /*font-family: 'Open Sans', helvetica, arial, sans;*/
     font-weight: bold;
     font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
@@ -23,27 +40,26 @@ h1, h2, h3 {
 
 /* AREA STYLES */
 .headerArea {
-    background-color: #f4f4f4;
-    color: #c0b283;
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
     margin-bottom: 40px;
     margin-left: 20px;
 }
 .challengesHeaderArea {
-    background-color: #f4f4f4;
-    color: #c0b283;
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
     margin-bottom: 0;
     margin-left: 20px;
 }
 .challengesArea {
-    background-color: color: #dcd0c0;
     display: grid;
     grid-template-columns: 33vw 33vw 33vw;
     margin-top: 0;
     padding-top: 0;
 }
 .challengeContainer {
-    background-color: #fffff0;
-    color: #c0b283;
+    background-color: var(--area-color);
+    color: var(--text-color);
     margin: 10px;
     padding: 10px;
     padding-top: 0;
@@ -58,8 +74,8 @@ h1, h2, h3 {
 
 }
 .footerArea {
-    background-color: #f4f4f4;
-    color: #c0b283;
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
     margin-left: 20px;
     margin-bottom: 40px;
 }
