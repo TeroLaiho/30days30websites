@@ -9,8 +9,9 @@
     --area-color:#4717F6; /*jewell*/
     --area-color:#2251dd;
     --area-color:#328CC1; /*sky blue*/
-    --area-color:#1D2731; /*ivory black*/
     --area-color:#cce6ff; /*miyuki*/
+    --area-color:#1D2731; /*ivory black*/
+    --area-color:#0B3C5D; /*prussian blue*/
     --link-color:#778899;
     --link-color:#DAA520; /*GoldenRod*/
     --accent-color:#417C81;
@@ -65,7 +66,8 @@ h1, h2, h3 {
     padding-top: 0;
 }
 .challengeContainer {
-    background-color: var(--area-color);
+    /*background-color: var(--area-color);*/
+    border: 1px solid var(--area-color);
     border-radius: 10px;
     color: var(--text-color);
     margin: 10px;
@@ -73,10 +75,10 @@ h1, h2, h3 {
     padding-top: 0;
 }
 .challengeHeader {
-    color: var(--secondary-text-color);
+    /*color: var(--secondary-text-color);*/
 }
 .challengeDescription {
-    color: var(--secondary-text-color);
+    /*color: var(--secondary-text-color);*/
     padding-bottom: 5px;
 }
 .challengeLink {
