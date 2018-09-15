@@ -43,19 +43,38 @@ body {
     line-height: 1.3;
     background-image: url("../img/Beach1600x1200.jpg");
     background-size: cover;
+    padding: 20px;
 }
 
 h1, h2, h3 {
-    font-family: "Century Gothic", CenturyGothic, helvetica, arial, sans;
+    font-family: 'Great Vibes', cursive;
+    color: var(--text-color);
 }
 
-button {
-    background-color: transparent;
-    border: none;
-    color: black;
-    font-size: 2rem;
-    }
+#Register_Checkbox {
+    display: none;
+}
+
+label:hover {
+    color: var(--text-color);
+    font-size: 2.1rem;
+}
+
+
+
 /* AREA STYLES */
+.Title {
+/*background-color: red;*/
+}
+
+.Registration {
+/*background-color: blue;*/
+}
+
+#Registered {
+/*background-color: yellow;*/
+font-size: 4rem;
+}
 
 
 @media only screen and (orientation: portrait) {

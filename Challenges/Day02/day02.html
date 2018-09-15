@@ -7,13 +7,24 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-    <h1>Come and enjoy the magical Hayama sunset</h1>
 
-    <button onclick="myFunction()">To join us please register</button>
+    <h1 class="Title">Come and enjoy the magical Hayama sunset with us</h1>
+
+    <label for="Register_Checkbox" class="Registration"><input type="checkbox" id="Register_Checkbox" onclick="displayRegisted()">To join us please register</label>
+
+    <div id="Registered" style="display:none; color: #373737;">See you there!</div>
+
     <script>
-        function myFunction() {
-        alert("See you on the beach!");
+    function displayRegisted() {
+    var checkBox = document.getElementById("Register_Checkbox");
+    var text = document.getElementById("Registered");
+    if (checkBox.checked == true){
+        text.style.display = "block";
+    } else {
+       text.style.display = "none";
     }
-</script>
+    }
+    </script>
+
 </body>
 </html>
