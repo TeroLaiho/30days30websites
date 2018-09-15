@@ -68,7 +68,10 @@ label:hover {
 }
 
 .Registration {
-/*background-color: blue;*/
+border: 2px solid;
+border-radius: 10px;
+color:var(--secondary-text-color);
+padding: 10px;
 }
 
 #Registered {
