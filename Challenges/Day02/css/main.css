@@ -36,7 +36,7 @@ a:hover {
 therefore the path to the image is relative to the location of the CSS file, not the HTML file.*/
 
 body {
-    /*background-color: var(--main-bg-color);*/
+    background-color: var(--main-bg-color);
     font-weight: bold;
     font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
     font-size: 2rem;
